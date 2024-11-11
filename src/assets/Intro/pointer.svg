@@ -1,0 +1,19 @@
+<svg
+                height="200px"
+                width="200px"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="-37.83 -37.83 453.96 453.96"
+                xml:space="preserve"
+                fill="#000000"
+                stroke="#000000"
+                stroke-width="20.428308"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)" >
+                  <rect x="-37.83" y="-37.83" width="453.96" height="453.96" rx="40.8564" fill="#e5a50a" strokewidth="0" ></rect>
+                </g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" ></g>
+                <g id="SVGRepo_iconCarrier"> {" "} <polygon style="fill:#000;" points="378.302,28.284 350.017,0 189.151,160.867 28.284,0 0,28.284 160.866,189.151 0,350.018 28.284,378.302 189.151,217.436 350.017,378.302 378.302,350.018 217.435,189.151 " ></polygon>{" "} </g>
+              </svg>

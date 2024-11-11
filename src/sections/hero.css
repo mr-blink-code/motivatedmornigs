@@ -1,0 +1,12 @@
+.section1 {
+  clip-path: ellipse(34% 62% at 26% 31%);/* (ellipse x y @ position x y) */
+  z-index: -1;
+  }
+.section2{
+  clip-path: ellipse(32% 56% at 86% 80%);
+  
+}
+.section3{
+  clip-path: ellipse(50% 77% at 90% 0%);
+  z-index: -1;
+}
