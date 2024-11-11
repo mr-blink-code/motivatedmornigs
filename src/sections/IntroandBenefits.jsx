@@ -56,7 +56,7 @@ export default function IntroandBenefits() {
   }, []);
 
   return (
-    <section className="mt-[110vh] md:mt-[130vh]">
+    <section id="intro" className="mt-[110vh] md:mt-[130vh]">
       {/* section 1 */}
       <div ref={ref} className="flex lg:flex-row md:flex-row lg:my-10 flex-col justify-evenly items-center" >
         <motion.div

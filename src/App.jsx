@@ -18,7 +18,7 @@ function App() {
     
     <Header/>
     <Routes>
-    <Route path="/" element={<Hero/>}/>
+    <Hero/>
     </Routes>
     <IntroandBenefits/>
     <FeatureHighlights/>

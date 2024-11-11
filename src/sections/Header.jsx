@@ -37,11 +37,11 @@ export default function Header() {
         initial = {{ opacity:0,y:-30}}
         animate={{opacity:1,y:0,transition:{duration:1}}}
         className="hidden md:flex gap-6 items-center md:me-10" >
-<AnchorLink  className="font-bold hover:scale-110 transition-transform duration-300" aria-label="Who It's For" > Who It's For</AnchorLink>
+<AnchorLink href="#hero" className="font-bold hover:scale-110 transition-transform duration-300" aria-label="Who It's For" > Who It's For</AnchorLink>
 <AnchorLink href="#about" className="font-bold hover:scale-110 transition-transform duration-300" aria-label="About Us Page" > About</AnchorLink>
-<AnchorLink to={"/"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label="FAQ Page" >FAQ</AnchorLink>
-<AnchorLink to={"/"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label= "Blog AnchorLink" >Blog</AnchorLink>
-<AnchorLink to={"/"} className="cursor-pointer"><img className="h-6 w-auto hover:animate-wiggle transition-all duration-300" src={profile_icon} alt="profile" aria-label="profile"/></AnchorLink>
+<AnchorLink href="#down" className="font-bold hover:scale-110 transition-transform duration-300" aria-label="FAQ Page" >FAQ</AnchorLink>
+<AnchorLink href="#about" className="font-bold hover:scale-110 transition-transform duration-300" aria-label= "Blog AnchorLink" >Blog</AnchorLink>
+<AnchorLink href="#intro" className="cursor-pointer"><img className="h-6 w-auto hover:animate-wiggle transition-all duration-300" src={profile_icon} alt="profile" aria-label="profile"/></AnchorLink>
 <AnchorLink href="#down" className="bg-slate-900 text-slate-50 font-bold py-2 px-6 rounded-full hover:scale-110 transition-transform duration-300" aria-label="Start Your Free Trial" > Start Your Free Trial</AnchorLink>
         </motion.nav>
 

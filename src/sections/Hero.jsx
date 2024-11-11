@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
  */
 export default function Hero() {
   return (
-   <section aria-label="hero section">
+   <section id="hero" aria-label="hero section">
      <div className="absolute top-0 left-0 w-full bg-yellow-400 section1 h-full"></div>
      <div className="absolute bottom-0 bg-white h-full w-full section2"></div>
      <div className="absolute bottom-0 bg-yellow-400 h-full w-full section3"></div>
