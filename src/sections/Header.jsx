@@ -52,7 +52,7 @@ export default function Header() {
           } `}
         >
           <Link to={"/"} className="font-bold" aria-label="Who It's For" > Who It's For </Link>
-          <Link to={"/about"} className="font-bold" aria-label="About Us Page" > About </Link>
+          <a href="#about" className="font-bold" aria-label="About Us Page" > About </a>
           <Link to={"/"} className="font-bold" aria-label="FAQ Page" > FAQ </Link>
           <Link to={"/"} className="font-bold" aria-label="Blog page" > Blog </Link>
           <img className="h-6 w-auto hover:animate-wiggle transition-all duration-300" src={profile_icon} alt="Notifications Bell Icon" aria-label="Notifications" />
