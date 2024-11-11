@@ -4,7 +4,7 @@ import logo from "/logo.png";
 
 export default function Project() {
   return (
-    <div className="flex  lg:gap-10 flex-col lg:flex-row justify-center items-center h-[55vh]">
+    <div id="about" className="flex  lg:gap-10 flex-col lg:flex-row justify-center items-center h-[55vh]">
       <div className="lg:w-1/3 flex flex-col items-center">
         <img src={logo} alt="logo" className="h-32" />
       </div>

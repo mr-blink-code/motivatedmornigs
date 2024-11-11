@@ -1,12 +1,13 @@
 import React from "react";
 import downld from "../assets/guidedow/download.svg";
 import img from "../assets/guidedow/book.png";
+import { download } from "server/reply";
 /* Downloadable Guide Section:
 - Add the form for downloading the "8 Secrets to Doing Work That Matters" guide. */
 
 export default function DownloadableGuide() {
   return (
-    <div
+    <div id="down"
       className="flex h-[90vh] bg-[#debbad] flex-col md:flex-row lg:flex-row justify-evenly items-center"
       style={{ clipPath: "ellipse(90% 70% at 70% 70%)" }}
     >
