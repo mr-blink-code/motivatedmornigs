@@ -23,7 +23,10 @@ function App() {
     <IntroandBenefits/>
     <FeatureHighlights/>
     <PricingPlans/>
-    <Project/>
+    
+    <Routes>
+    <Route path="/about" element={<Project/>}/>
+    </Routes>
     <DownloadableGuide/>
     <Footer/>
     

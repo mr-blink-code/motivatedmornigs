@@ -38,7 +38,7 @@ export default function Header() {
         animate={{opacity:1,y:0,transition:{duration:1}}}
         className="hidden md:flex gap-6 items-center md:me-10" >
           <Link to={"/"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label="Who It's For" > Who It's For </Link>
-          <Link to={"/"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label="About Us Page" > About </Link>
+          <Link to={"/about"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label="About Us Page" > About </Link>
           <Link to={"/"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label="FAQ Page" > FAQ </Link>
           <Link to={"/"} className="font-bold hover:scale-110 transition-transform duration-300" aria-label="Blog Link" > Blog </Link>
           <Link to={"/"} className="cursor-pointer"><img className="h-6 w-auto hover:animate-wiggle transition-all duration-300" src={profile_icon} alt="profile" aria-label="profile" /></Link>
@@ -52,7 +52,7 @@ export default function Header() {
           } `}
         >
           <Link to={"/"} className="font-bold" aria-label="Who It's For" > Who It's For </Link>
-          <Link to={"/"} className="font-bold" aria-label="About Us Page" > About </Link>
+          <Link to={"/about"} className="font-bold" aria-label="About Us Page" > About </Link>
           <Link to={"/"} className="font-bold" aria-label="FAQ Page" > FAQ </Link>
           <Link to={"/"} className="font-bold" aria-label="Blog page" > Blog </Link>
           <img className="h-6 w-auto hover:animate-wiggle transition-all duration-300" src={profile_icon} alt="Notifications Bell Icon" aria-label="Notifications" />
