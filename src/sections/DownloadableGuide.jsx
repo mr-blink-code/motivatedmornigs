@@ -13,7 +13,7 @@ export default function DownloadableGuide() {
     >
       {/* form */}
       <form className="flex flex-col gap-3">
-        <h1 className="font-bold">FREE GUIDE</h1>
+        <h1 className="font-bold md:ps-0 lg:ps-0 ps-7" >FREE GUIDE</h1>
         <h1 className="text-2xl font-bold w-60">8 Secrets to Doing Work That Matters</h1>
         <ul>
           <li>

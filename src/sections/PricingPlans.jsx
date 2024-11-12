@@ -7,7 +7,6 @@ import React,{useState,useEffect,useRef} from "react";
 export default function PricingPlans() {
   const ref = useRef(null)
   const [inView, setInView] = useState(false);
-  const [positionIndexes,setPositionIndexes] = useState([0,1,2,3,4])
 
   useEffect(() => {
     const observer = new IntersectionObserver(

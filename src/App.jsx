@@ -17,9 +17,7 @@ function App() {
     <>
     
     <Header/>
-    <Routes>
     <Hero/>
-    </Routes>
     <IntroandBenefits/>
     <FeatureHighlights/>
     <PricingPlans/>
