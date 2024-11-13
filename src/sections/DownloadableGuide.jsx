@@ -1,7 +1,7 @@
 import React from "react";
 import downld from "../assets/guidedow/download.svg";
 import img from "../assets/guidedow/book.png";
-import { download } from "server/reply";
+
 /* Downloadable Guide Section:
 - Add the form for downloading the "8 Secrets to Doing Work That Matters" guide. */
 
