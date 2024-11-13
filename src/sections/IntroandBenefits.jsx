@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 import pointer from "../assets/Intro/pointer.svg";
 import image from "../assets/Intro/Recommended.jpeg";
 import check from "../assets/Intro/check.svg";
@@ -67,20 +67,20 @@ export default function IntroandBenefits() {
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : { opacity: 0 }}
+          animate={inView ? { opacity: 1,transition:{duration:1,delay:0.2} } : { opacity: 0 }}
           className="flex flex-col gap-6"
         >
           <div className="lg:text-7xl md:text-5xl text-4xl font-bold"> Tired of not <br /> finishing that script? </div>
           <motion.ul
             initial={{ opacity: 0 }}
-            animate={ inView ? { opacity: 1, transition: { staggerChildren: 0.3, duration: 1 }, } : { opacity: 0 } }
+            animate={ inView ? { opacity: 1, transition: { staggerChildren: 0.5, duration: 1 }, } : { opacity: 0 } }
             className="flex flex-col gap-2"
           >
             {benefits.map((item, index) => (
               <motion.li
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
-                animate={ inView ? { opacity: 1, y: 0, transition: { duration: 0.6, delay: index * 0.09 }, } : { opacity: 0 } }
+                animate={ inView ? { opacity: 1, y: 0, transition: { duration: 0.7, delay: index * 0.30 }, } : { opacity: 0 } }
                 className="flex justify-start items-center ms-5"
               >
                 <img className="h-4" src={pointer} alt="" />
